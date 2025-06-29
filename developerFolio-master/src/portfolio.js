@@ -221,13 +221,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/a-modern-realistic-logo-design-featuring_sufqpm-FTRqnHQKaBOmFSA_eHA40IAUSHG2piY4D7QRsw.jpeg"),
-      projectName: "Quick Chat App",
-      projectDesc: "Online chat application using web sockets",
+      image: require("./assets/images/falconlogo.JPG"),
+      projectName: "Falcon Plastic Industries",
+      projectDesc: "Responsive website for Falcon Plastic Industries showcasing products, services, and industry expertise.",
       footerLink: [
         {
-          name: "Visit github",
-          url: "https://github.com/nawwalwaseer/Quick-Chat-App-MERN"
+          name: "Live At",
+          url: "https://fpi-website-dsulabo1t-nawwal-aftab-waseers-projects.vercel.app/"
         }
       ]
     }
