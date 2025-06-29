@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nawwal-Waseer-Portfolio/static/css/main.f8da7265.css",
-    "main.js": "/Nawwal-Waseer-Portfolio/static/js/main.29130e06.js",
+    "main.js": "/Nawwal-Waseer-Portfolio/static/js/main.cbb08f3d.js",
     "static/css/64.bba8fa55.chunk.css": "/Nawwal-Waseer-Portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Nawwal-Waseer-Portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Nawwal-Waseer-Portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/skill.svg": "/Nawwal-Waseer-Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/Nawwal-Waseer-Portfolio/index.html",
     "main.f8da7265.css.map": "/Nawwal-Waseer-Portfolio/static/css/main.f8da7265.css.map",
-    "main.29130e06.js.map": "/Nawwal-Waseer-Portfolio/static/js/main.29130e06.js.map",
+    "main.cbb08f3d.js.map": "/Nawwal-Waseer-Portfolio/static/js/main.cbb08f3d.js.map",
     "64.bba8fa55.chunk.css.map": "/Nawwal-Waseer-Portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Nawwal-Waseer-Portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Nawwal-Waseer-Portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.f8da7265.css",
-    "static/js/main.29130e06.js"
+    "static/js/main.cbb08f3d.js"
   ]
 }
