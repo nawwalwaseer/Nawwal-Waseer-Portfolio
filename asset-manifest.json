@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nawwal-Waseer-Portfolio/static/css/main.f8da7265.css",
-    "main.js": "/Nawwal-Waseer-Portfolio/static/js/main.cbb08f3d.js",
+    "main.js": "/Nawwal-Waseer-Portfolio/static/js/main.fd9de2c1.js",
     "static/css/64.bba8fa55.chunk.css": "/Nawwal-Waseer-Portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Nawwal-Waseer-Portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Nawwal-Waseer-Portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -10,16 +10,16 @@
     "static/media/kscertificatee.jpeg": "/Nawwal-Waseer-Portfolio/static/media/kscertificatee.172970c5b3f515df2baa.jpeg",
     "static/media/Montserrat-Regular.ttf": "/Nawwal-Waseer-Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/Nawwal-Waseer-Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/falconlogo.JPG": "/Nawwal-Waseer-Portfolio/static/media/falconlogo.67da6b45a6d3f132bcae.JPG",
     "static/media/Untitled design (3).png": "/Nawwal-Waseer-Portfolio/static/media/Untitled design (3).463097239b603b6c0a2d.png",
     "static/media/SEOcertificate.jpeg": "/Nawwal-Waseer-Portfolio/static/media/SEOcertificate.bf039fa5bdb57a2d62a2.jpeg",
-    "static/media/a-modern-realistic-logo-design-featuring_sufqpm-FTRqnHQKaBOmFSA_eHA40IAUSHG2piY4D7QRsw.jpeg": "/Nawwal-Waseer-Portfolio/static/media/a-modern-realistic-logo-design-featuring_sufqpm-FTRqnHQKaBOmFSA_eHA40IAUSHG2piY4D7QRsw.22c1a3bb9554c92595d9.jpeg",
     "static/media/manOnTable.svg": "/Nawwal-Waseer-Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/Nawwal-Waseer-Portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/Nawwal-Waseer-Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/skill.svg": "/Nawwal-Waseer-Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/Nawwal-Waseer-Portfolio/index.html",
     "main.f8da7265.css.map": "/Nawwal-Waseer-Portfolio/static/css/main.f8da7265.css.map",
-    "main.cbb08f3d.js.map": "/Nawwal-Waseer-Portfolio/static/js/main.cbb08f3d.js.map",
+    "main.fd9de2c1.js.map": "/Nawwal-Waseer-Portfolio/static/js/main.fd9de2c1.js.map",
     "64.bba8fa55.chunk.css.map": "/Nawwal-Waseer-Portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Nawwal-Waseer-Portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Nawwal-Waseer-Portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.f8da7265.css",
-    "static/js/main.cbb08f3d.js"
+    "static/js/main.fd9de2c1.js"
   ]
 }
