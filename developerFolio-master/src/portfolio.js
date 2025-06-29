@@ -23,7 +23,7 @@ const greeting = {
   username: "Nawwal Aftab Waseer",
   title: "Hi all, I'm Nawwal",
   subTitle: emoji(
-    "I’m a MERN Stack Developer with over a year of experience building responsive, full-stack web applications. I’ve completed 5+ full-stack projects, delivered a couple of freelance solutions, and i am currently working on Posify, an AI-powered POS retail system. Certified Mern stack developer from Knowledge Streams, I focus on turning visions into reality!"
+    "I’m a MERN Stack Developer with over a year of experience building responsive, full-stack web applications. I’ve completed 5+ full-stack projects, delivered a couple of freelance solutions & currently working on Posify AI, an AI-powered POS retail system. Being a Certified Mern stack developer from Knowledge Streams, I focus on turning visions into reality!"
   ),
   resumeLink:
     "https://drive.google.com/uc?export=download&id=1N6wdoLZ-tXC4YjCJQ0eYdfOvGrH64b7Z", // Set to empty to hide the button
@@ -51,16 +51,17 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Bringing Interfaces to Life",
   subTitle: "FULL STACK DEVELOPER FOCUSED ON BUILDING MODERN AND RESPONSIVE APPS",
   skills: [
     emoji(
-      "⚡ Developed responsive front-ends with React, Tailwind, ShadCN, and Bootstrap"
+      "⚡ Developed responsive front-ends with React, Tailwind, ShadCN, and Bootstrap."
     ),
-    emoji("⚡ Build secure REST APIs with Node.js, Express, MongoDB, SQL, JWT, and bcrypt"),
+    emoji("⚡ Build secure backend systems with Node.js, Express, MongoDB & MySql"),
+    
     emoji(
-      "⚡  Deploy apps using GitHub, Vercel, Netlify, Render; trained in teamwork, communication and collaboration"
-    )
+      "⚡  Deploy apps using GitHub, Vercel, Netlify & Render also Trained in team work, collaboration & leadership"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -111,23 +112,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of Mnagement and Technology",
+      schoolName: "University of Management and Technology",
       logo: require("./assets/images/umtlogo.jpg"),
       subHeader: "Bachelors in Computer Science",
       duration: "November 2021 - July 2025",
-      desc: "Member of ACM society.",
       descBullets: [
-        "Participated actively in UMT ACM society, contributing to coding competitions and attending insightful tech talks and workshops.",
+        "Participated actively and currently a member in UMT ACM society, contributing to coding competitions and attending insightful tech talks and workshops.",
         
       ]
     },
     {
       schoolName: "Kips College",
-      logo: require("./assets/images/kipslogo.jpg"),
+      logo: require("./assets/images/kipslogo2.jpg"),
       subHeader: "FSC Pre Engineering",
       duration: "Jan 2017 - February 2019",
-      desc: "Ranked 3rd in the college.",
-      descBullets: ["Participated in extra curricular activities and competitions."]
+      descBullets: ["Ranked 3rd in the college & Participated in extra curricular activities and competitions."]
     }
   ]
 };
@@ -139,15 +138,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -182,13 +181,13 @@ const workExperiences = {
     },
     {
       role: "Freelance Developer ",
-      company: "Fiver",
-      companylogo: require("./assets/images/fiverlogo.png"),
+      company: "Fiverr",
+      companylogo: require("./assets/images/fiverLogo2.png"),
       date: "March 2023 – Present",
       desc: "Build freelance profiles offering web development & writing services.",
       descBullets: [
         "Built profiles on Fiverr and Upwork, offering web development and content writing.",
-        "Prepared proposals and created a portfolio to improve outreach and client engagement."
+        "Offering full-stack web development services on Fiverr and exploring project opportunities."
       ]
     }
   ]
@@ -275,7 +274,7 @@ const achievementSection = {
 
     {
       title: "Social Service Volunteer",
-      subtitle: "Awarded a certificate for completiion of volunteer training flagship program and successful fundraising  at Pakistan Citizenship Alliance ",
+      subtitle: "Awarded a certificate for completion of volunteer training flagship program and successful fundraising  at Pakistan Citizenship Alliance ",
       image: require("./assets/images/PCA.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
