@@ -23,7 +23,7 @@ const greeting = {
   username: "Nawwal Aftab Waseer",
   title: "Hi all, I'm Nawwal",
   subTitle: emoji(
-    "I’m a Full-Stack Developer with MERN Stack and Python Django experience, having completed 5+ projects and freelance solutions. Currently, I’m working on PosifyAI, an AI-powered POS system, and as a Certified MERN Stack Developer, I focus on turning ideas into high-quality software."
+    "I’m a Full-Stack Developer with MERN Stack & Python Django experience, having completed 5+ projects & freelance solutions. Currently, I’m working on PosifyAI, an AI-powered POS system, and as a Certified MERN Stack Developer & Python Django Developer, I focus on turning ideas into high-quality software."
   ),
   resumeLink:[
     "https://drive.google.com/file/d/1N6wdoLZ-tXC4YjCJQ0eYdfOvGrH64b7Z/view?usp=sharing",
@@ -274,7 +274,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/ChatGPT Image Sep 17, 2025, 02_12_42 AM.png"),
-      projectName: "Personal Expense Management System",
+      projectName: "Expense Management System",
       projectDesc: "Backend application to track personal expenses, user authentication, summary breakdowns.",
       footerLink: [
         {
@@ -299,7 +299,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Mern Stack Bootcamp",
+      title: "Mern Stack Intern",
       subtitle:
         "Certificate of successful completion of 12+ weeks bootcamp for Technical skills and Soft skills.",
       image: require("./assets/images/kscertificatee.jpeg"),
