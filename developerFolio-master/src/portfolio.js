@@ -191,6 +191,7 @@ const techStack = {
 
 // Work experience section
 
+// "homepage": "https://nawwalwaseer.github.io/Nawwal-Waseer-Portfolio",
 
 
 const workExperiences = {
@@ -313,8 +314,8 @@ const achievementSection = {
       title: "Full Stack Python Intern",
       subtitle:
         "Certificate of successful completion of 10+ weeks internship as a Full Stack Python Developer.",
-      image: require("./assets/images/IMG_7684.jpeg"),
-      imageAlt: "Knowledge Streams Bootcamp Certificate",
+      image: require("./assets/images/innovaxel.jpeg"),
+      imageAlt: "Innovaxel Internship Certificate",
       footerLink: [
         {
           name: "Innovaxel",
