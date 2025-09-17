@@ -290,6 +290,8 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
+
+
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
@@ -314,7 +316,7 @@ const achievementSection = {
       title: "Full Stack Python Intern",
       subtitle:
         "Certificate of successful completion of 10+ weeks internship as a Full Stack Python Developer.",
-      image: require("./assets/images/innovaxel-certificate.jpeg"),
+      image: require("./assets//images/innovaxel-certificate.jpeg"),
       imageAlt: "Innovaxel Internship Certificate",
       footerLink: [
         {
