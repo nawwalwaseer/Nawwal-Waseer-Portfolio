@@ -316,7 +316,7 @@ const achievementSection = {
       title: "Full Stack Python Intern",
       subtitle:
         "Certificate of successful completion of 10+ weeks internship as a Full Stack Python Developer.",
-      image: require("./assets//images/innovaxel-certificate.jpeg"),
+      image: require("./assets//images/kscertificatee.jpeg"),
       imageAlt: "Innovaxel Internship Certificate",
       footerLink: [
         {
