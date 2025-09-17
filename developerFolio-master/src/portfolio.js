@@ -264,7 +264,7 @@ const bigProjects = {
     {
       image: require("./assets/images/falconlogo.JPG"),
       projectName: "Falcon Plastic Industries",
-      projectDesc: "Responsive website for Falcon Plastic Industries showcasing products, services & industry expertise.",
+      projectDesc: "Responsive website for Falcon Plastic Industries showcasing products & services.",
       footerLink: [
         {
           name: "Live At",
