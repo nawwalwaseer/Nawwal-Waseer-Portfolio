@@ -48,7 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Bringing Interfaces to Life",
+  title: "Bringing Interfaces to Life!",
   subTitle: "FULL STACK DEVELOPER SPECIALIZING IN MERN STACK & PYTHON DJANGO TECH STACK",
   skills: [
     emoji(
