@@ -42,7 +42,7 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                
+
                 {/* Render multiple resume buttons dynamically */}
                 {greeting.resumeLink &&
                   greeting.resumeLink.map((link, index) => (
@@ -52,7 +52,6 @@ export default function Greeting() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="download-link-button"
-                      style={{ marginLeft: index > 0 ? "10px" : "0px" }}
                     >
                       <Button
                         text={
@@ -82,22 +81,25 @@ export default function Greeting() {
 }
 
 
-// import React, {useContext} from "react";
-// import {Fade} from "react-reveal";
+
+// import React, { useContext } from "react";
+// import { Fade } from "react-reveal";
 // import emoji from "react-easy-emoji";
 // import "./Greeting.scss";
 // import landingPerson from "../../assets/lottie/landingPerson";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 // import SocialMedia from "../../components/socialMedia/SocialMedia";
 // import Button from "../../components/button/Button";
-// import {illustration, greeting} from "../../portfolio";
+// import { illustration, greeting } from "../../portfolio";
 // import StyleContext from "../../contexts/StyleContext";
 
 // export default function Greeting() {
-//   const {isDark} = useContext(StyleContext);
+//   const { isDark } = useContext(StyleContext);
+
 //   if (!greeting.displayGreeting) {
 //     return null;
 //   }
+
 //   return (
 //     <Fade bottom duration={1000} distance="40px">
 //       <div className="greet-main" id="greeting">
@@ -107,7 +109,6 @@ export default function Greeting() {
 //               <h1
 //                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
 //               >
-//                 {" "}
 //                 {greeting.title}{" "}
 //                 <span className="wave-emoji">{emoji("👋")}</span>
 //               </h1>
@@ -120,23 +121,34 @@ export default function Greeting() {
 //               >
 //                 {greeting.subTitle}
 //               </p>
+
 //               <div id="resume" className="empty-div"></div>
 //               <SocialMedia />
 //               <div className="button-greeting-div">
 //                 <Button text="Contact me" href="#contact" />
-//                 {greeting.resumeLink && (
-//                   <a
-//   href="https://drive.google.com/file/d/1N6wdoLZ-tXC4YjCJQ0eYdfOvGrH64b7Z/view"
-//   target="_blank"
-//   rel="noopener noreferrer"
-//   className="download-link-button"
-// >
-//   <Button text="View My Resume" />
-// </a>
-//                 )}
+                
+//                 {/* Render multiple resume buttons dynamically */}
+//                 {greeting.resumeLink &&
+//                   greeting.resumeLink.map((link, index) => (
+//                     <a
+//                       key={index}
+//                       href={link}
+//                       target="_blank"
+//                       rel="noopener noreferrer"
+//                       className="download-link-button"
+//                       style={{ marginLeft: index > 0 ? "10px" : "0px" }}
+//                     >
+//                       <Button
+//                         text={
+//                           index === 0 ? "View MERN Resume" : "View Django Resume"
+//                         }
+//                       />
+//                     </a>
+//                   ))}
 //               </div>
 //             </div>
 //           </div>
+
 //           <div className="greeting-image-div">
 //             {illustration.animated ? (
 //               <DisplayLottie animationData={landingPerson} />
@@ -144,7 +156,7 @@ export default function Greeting() {
 //               <img
 //                 alt="man sitting on table"
 //                 src={require("../../assets/images/manOnTable.svg")}
-//               ></img>
+//               />
 //             )}
 //           </div>
 //         </div>
@@ -152,3 +164,5 @@ export default function Greeting() {
 //     </Fade>
 //   );
 // }
+
+
