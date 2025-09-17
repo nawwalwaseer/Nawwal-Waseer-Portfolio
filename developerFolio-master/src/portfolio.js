@@ -23,10 +23,11 @@ const greeting = {
   username: "Nawwal Aftab Waseer",
   title: "Hi all, I'm Nawwal",
   subTitle: emoji(
-    "I’m a MERN Stack Developer with over a year of experience building responsive, full-stack web applications. I’ve completed 5+ full-stack projects, delivered a couple of freelance solutions & currently working on Posify AI, an AI-powered POS retail system. Being a Certified Mern stack developer from Knowledge Streams, I focus on turning visions into reality!"
+    "I’m a Full-Stack Developer with MERN Stack and Python Django experience, having completed 5+ projects and freelance solutions. Currently, I’m working on PosifyAI, an AI-powered POS system, and as a Certified MERN Stack Developer, I focus on turning ideas into high-quality software."
   ),
-  resumeLink:
-    "https://drive.google.com/uc?export=download&id=1N6wdoLZ-tXC4YjCJQ0eYdfOvGrH64b7Z", // Set to empty to hide the button
+  resumeLink:[
+    "https://drive.google.com/file/d/1N6wdoLZ-tXC4YjCJQ0eYdfOvGrH64b7Z/view?usp=sharing",
+    "https://drive.google.com/file/d/1k2seJjdzp1qhLp-HzslIr6qCddaG2DSR/view?usp=sharing"], // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,13 +39,9 @@ const socialMediaLinks = {
   github: "https://github.com/nawwalwaseer",
   linkedin: "https://www.linkedin.com/in/nawwal-aftab-waseer-826b97274",
   gmail: "waseernawwal@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/share/1DvRko6wvR/?mibextid=wwXIfr",
   // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   twitter:"https://x.com/nawwalw84448?s=11",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -52,16 +49,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Bringing Interfaces to Life",
-  subTitle: "FULL STACK DEVELOPER FOCUSED ON BUILDING MODERN AND RESPONSIVE APPS",
+  subTitle: "FULL STACK DEVELOPER SPECIALIZING IN MERN STACK & PYTHON DJANGO TECH STACK",
   skills: [
     emoji(
-      "⚡ Developed responsive front-ends with React, Tailwind, ShadCN, and Bootstrap."
+      "⚡  Build responsive frontends with React, Tailwind, ShadCN & DaisyUI."
     ),
-    emoji("⚡ Build secure backend systems with Node.js, Express, MongoDB & MySql"),
+    emoji("⚡ Develop secure and scalable backends with Node.js, Express, MongoDB, MySQL & Python Django."),
     
     emoji(
-      "⚡  Deploy apps using GitHub, Vercel, Netlify & Render also Trained in team work, collaboration & leadership"
+      "⚡  Deploy and maintain applications on Vercel, Netlify using Github Actions & CI/CD Pipelines."
     ),
+    emoji(
+      "⚡  Experienced in teamwork, collaboration, and project leadership."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,39 +69,76 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    
-    
-    
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "mongodb",
-      fontAwesomeClassname: "fas fa-leaf" // FontAwesome has a leaf icon often used for MongoDB
-    },
-   
-    
+        skillName: "HTML5",
+        fontAwesomeClassname: "fab fa-html5",
+      },
+      {
+        skillName: "CSS3",
+        fontAwesomeClassname: "fab fa-css3-alt",
+      },
+      {
+        skillName: "JavaScript",
+        fontAwesomeClassname: "fab fa-js",
+      },
+      {
+        skillName: "React.js",
+        fontAwesomeClassname: "fab fa-react",
+      },
+      {
+        skillName: "Tailwind CSS",
+        fontAwesomeClassname: "fas fa-paint-brush",
+      },
+      {
+        skillName: "Redux",
+        fontAwesomeClassname: "fas fa-project-diagram",
+      },
+      {
+        skillName: "Node.js",
+        fontAwesomeClassname: "fab fa-node",
+      },
+      {
+        skillName: "Python Django",
+        fontAwesomeClassname: "fab fa-python",
+      },
+      {
+        skillName: "REST APIs",
+        fontAwesomeClassname: "fas fa-network-wired",
+      },
+      {
+        skillName: "MongoDB",
+        fontAwesomeClassname: "fas fa-leaf",
+      },
+      {
+        skillName: "MySQL",
+        fontAwesomeClassname: "fas fa-database",
+      },
+      {
+        skillName: "PostgreSQL",
+        fontAwesomeClassname: "fas fa-database",
+      },
+      {
+        skillName: "Git",
+        fontAwesomeClassname: "fab fa-git-alt",
+      },
+      {
+        skillName: "GitHub Actions",
+        fontAwesomeClassname: "fab fa-github",
+      },
+      {
+        skillName: "CI/CD Pipelines",
+        fontAwesomeClassname: "fas fa-project-diagram",
+      },
+      {
+        skillName: "Nginx",
+        fontAwesomeClassname: "fab fa-servicestack",
+      },{
+        skillName: "Docker",
+        fontAwesomeClassname: "fab fa-docker",
+      },
+      {
+        skillName: "Postman",
+        fontAwesomeClassname: "fas fa-vial",
+      },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -154,11 +191,24 @@ const techStack = {
 
 // Work experience section
 
+
+
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Mern Stack Trainee",
+      role: "Full Stack Python Django Intern",
+      company: "Innovaxel",
+      companylogo: require("./assets/images/innovaxel_logo.png"),
+      date: "July 2025 – September 2025",
+      desc: "Intern at Innovaxel as a Full-Stack Python Django Developer.",
+      descBullets: [
+        "Contributed to developing and maintaining real life full-stack web applications using Python Django.",
+        "Collaborated on database management and implemented competitive features to enhance application functionality."
+      ]
+    },
+    {
+      role: "Mern Stack Intern",
       company: "Knowledge Streams",
       companylogo: require("./assets/images/kslogo.jpg"),
       date: "June 2024 – October 2024",
@@ -168,17 +218,7 @@ const workExperiences = {
         "Developed scalable backend APIs with Node.js, Express, and managed data using MongoDB and SQL databases."
       ]
     },
-    {
-      role: "Teachers Assistant",
-      company: "University of Mnagement and Technology",
-      companylogo: require("./assets/images/umtlogo.jpg"),
-      date: "March 2025 – July 2025",
-      desc: "Teaching Assistant for Database Management and Web Technologies courses.",
-      descBullets: [
-        "Supported instructors by conducting tutorials, grading assignments, and addressing student queries.",
-        "Facilitated hands-on sessions to enhance student understanding of databases and modern web development."
-      ]
-    },
+    
     {
       role: "Freelance Developer ",
       company: "Fiverr",
@@ -186,7 +226,7 @@ const workExperiences = {
       date: "March 2023 – Present",
       desc: "Build freelance profiles offering web development & writing services.",
       descBullets: [
-        "Built profiles on Fiverr and Upwork, offering web development and content writing.",
+        "Completed a couple of freelance projects with positive reviews & client feedback.",
         "Offering full-stack web development services on Fiverr and exploring project opportunities."
       ]
     }
@@ -210,11 +250,11 @@ const bigProjects = {
     {
       image: require("./assets/images/Untitled design (3).png"),
       projectName: "Posify AI",
-      projectDesc: "AI driven point of sale retail software including human interactive design",
+      projectDesc: "AI driven point of sale retail software including human interactive design.",
       projectDetails: "Built using the MERN stack with features like sales tracking, customer and inventory management, and real-time analytics to streamline retail operations.",
       footerLink: [
         {
-          name: "Visit github",
+          name: "Visit Github",
           url: "https://github.com/nawwalwaseer/PosifyAI"
         }
         //  you can add extra buttons here.
@@ -223,11 +263,22 @@ const bigProjects = {
     {
       image: require("./assets/images/falconlogo.JPG"),
       projectName: "Falcon Plastic Industries",
-      projectDesc: "Responsive website for Falcon Plastic Industries showcasing products, services, and industry expertise.",
+      projectDesc: "Responsive website for Falcon Plastic Industries showcasing products, services & industry expertise.",
       footerLink: [
         {
           name: "Live At",
           url: "https://fpi-website-dsulabo1t-nawwal-aftab-waseers-projects.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ChatGPT Image Sep 17, 2025, 02_12_42 AM.png"),
+      projectName: "Personal Expense Management System",
+      projectDesc: "Backend application to track personal expenses, user authentication, summary breakdown & CRUD.",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/nawwalwaseer/Expense-Management-System"
         }
       ]
     }
@@ -247,7 +298,7 @@ const achievementSection = {
     {
       title: "Mern Stack Bootcamp",
       subtitle:
-        "Certificate of successful completion of 12+ weeks bootcamp for Technical skills and Soft skills",
+        "Certificate of successful completion of 12+ weeks bootcamp for Technical skills and Soft skills.",
       image: require("./assets/images/kscertificatee.jpeg"),
       imageAlt: "Knowledge Streams Bootcamp Certificate",
       footerLink: [
@@ -259,9 +310,23 @@ const achievementSection = {
       ]
     },
     {
+      title: "Full Stack Python Intern",
+      subtitle:
+        "Certificate of successful completion of 10+ weeks internship as a Full Stack Python Developer.",
+      image: require("./assets/images/IMG_7684.jpeg"),
+      imageAlt: "Knowledge Streams Bootcamp Certificate",
+      footerLink: [
+        {
+          name: "Innovaxel",
+          url: "https://www.linkedin.com/company/innovaxel/posts/?feedView=all"
+        },
+
+      ]
+    },
+    {
       title: "Mastering SEO",
       subtitle:
-        "Completed an online certification course on Mastering SEO with ChatGPT, gaining practical skills in optimizing content using AI tools.",
+        "Completed an online certification course on Mastering SEO with ChatGPT, gaining practical skills.",
       image: require("./assets/images/SEOcertificate.jpeg"),
       imageAlt: "SEO Mastery course certificate",
       footerLink: [
@@ -274,7 +339,7 @@ const achievementSection = {
 
     {
       title: "Social Service Volunteer",
-      subtitle: "Awarded a certificate for completion of volunteer training flagship program and successful fundraising  at Pakistan Citizenship Alliance ",
+      subtitle: "Completion of volunteer training program & fundraising at Pakistan Citizenship Alliance. ",
       image: require("./assets/images/PCA.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
