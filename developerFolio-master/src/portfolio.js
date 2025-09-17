@@ -275,7 +275,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ChatGPT Image Sep 17, 2025, 02_12_42 AM.png"),
       projectName: "Personal Expense Management System",
-      projectDesc: "Backend application to track personal expenses, user authentication, summary breakdown & CRUD.",
+      projectDesc: "Backend application to track personal expenses, user authentication, summary breakdowns.",
       footerLink: [
         {
           name: "Visit Github",
