@@ -194,7 +194,7 @@ const techStack = {
 
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, 
   experience: [
     {
       role: "Full Stack Python Django Intern",
