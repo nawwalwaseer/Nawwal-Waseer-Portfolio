@@ -68,18 +68,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-        skillName: "HTML5",
-        fontAwesomeClassname: "fab fa-html5",
-      },
-      {
-        skillName: "CSS3",
-        fontAwesomeClassname: "fab fa-css3-alt",
-      },
-      {
-        skillName: "JavaScript",
-        fontAwesomeClassname: "fab fa-js",
-      },
       {
         skillName: "React.js",
         fontAwesomeClassname: "fab fa-react",
@@ -109,20 +97,20 @@ https://fontawesome.com/icons?d=gallery */
         fontAwesomeClassname: "fas fa-leaf",
       },
       {
-        skillName: "MySQL",
+        skillName: "SQL Databases",
         fontAwesomeClassname: "fas fa-database",
       },
       {
-        skillName: "PostgreSQL",
-        fontAwesomeClassname: "fas fa-database",
+        skillName: "Harness Playground",
+        fontAwesomeClassname: "fas fa-flask"
+      },
+      {
+        skillName: "Prompt & Verifier Development",
+        fontAwesomeClassname: "fas fa-robot"
       },
       {
         skillName: "Git",
         fontAwesomeClassname: "fab fa-git-alt",
-      },
-      {
-        skillName: "GitHub Actions",
-        fontAwesomeClassname: "fab fa-github",
       },
       {
         skillName: "CI/CD Pipelines",
@@ -159,11 +147,11 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Kips College",
-      logo: require("./assets/images/kipslogo2.jpg"),
-      subHeader: "FSC Pre Engineering",
-      duration: "Jan 2017 - February 2019",
-      descBullets: ["Ranked 3rd in the college & Participated in extra curricular activities and competitions."]
+      schoolName: "Knowledge Streams",
+      logo: require("./assets/images/kslogo.jpg"),
+      subHeader: "MERN Stack Development",
+      duration: "June 2024 – October 2024",
+      descBullets: ["Successfully completed a 12-week bootcamp for MERN Stack Development, gaining hands-on experience in frontend and backend technologies."]
     }
   ]
 };
