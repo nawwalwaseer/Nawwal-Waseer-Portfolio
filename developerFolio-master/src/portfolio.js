@@ -23,7 +23,7 @@ const greeting = {
   username: "Nawwal Aftab Waseer",
   title: "Hi all, I'm Nawwal",
   subTitle: emoji(
-    "I’m a Full-Stack Developer with MERN Stack & Python Django experience, having completed 5+ projects & freelance solutions. Currently, I’m working on PosifyAI, an AI-powered POS system, and as a Certified MERN Stack Developer & Python Django Developer, I focus on turning ideas into high-quality software."
+    "I’m a Full-Stack Developer with 1+ year of professional experience, including collaboration with Meta and Turing professionals. I’ve delivered 3+ real-world CRM websites and contributed to Walmart, Doordash, and other product initiatives. I focus on frontend execution, scalable UI work, and prompt/verifier development validated in Meta Harness Playgrounds to ship reliable features on schedule."
   ),
   resumeLink:[
     "https://drive.google.com/file/d/1N6wdoLZ-tXC4YjCJQ0eYdfOvGrH64b7Z/view?usp=sharing",
@@ -52,15 +52,15 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER SPECIALIZING IN MERN STACK & PYTHON DJANGO TECH STACK",
   skills: [
     emoji(
-      "⚡  Build responsive frontends with React, Tailwind, ShadCN & DaisyUI."
+      "⚡  Build high-performance, responsive frontends for CRM and product web applications."
     ),
-    emoji("⚡ Develop secure and scalable backends with Node.js, Express, MongoDB, MySQL & Python Django."),
+    emoji("⚡ Deliver full-stack features using MERN and Python Django with clean API integrations."),
     
     emoji(
-      "⚡  Deploy and maintain applications on Vercel, Netlify using Github Actions & CI/CD Pipelines."
+      "⚡  Create robust prompts and verifiers, validated in Meta Harness Playgrounds and tested in production environments for reliability."
     ),
     emoji(
-      "⚡  Experienced in teamwork, collaboration, and project leadership."
+      "⚡  Collaborated with Meta and Turing professionals to deliver milestones on time."
     )
   ],
 
@@ -198,6 +198,17 @@ const workExperiences = {
   display: true, 
   experience: [
     {
+      role: "Associate Full Stack Developer ",
+      company: "Hubble42",
+      companylogo: require("./assets/images/download (1).png"),
+      date: "Sept 2025 – Present",
+      desc: "Built and shipped real-time websites including CRM platforms, Walmart-facing web modules, Dashdoor, and Meta-aligned deliverables.",
+      descBullets: [
+        "Contributed to Walmart, Doordash, Forcesales, Gmail and Hubspot web initiatives, focusing UX consistency and maintainable frontend architecture.",
+        "Worked directly with Meta stakeholders, aligning on prompts and verifiers, iteration cycles, and delivery standards to hit milestones."
+      ]
+    },
+    {
       role: "Full Stack Python Django Intern",
       company: "Innovaxel",
       companylogo: require("./assets/images/innovaxel_logo.png"),
@@ -217,18 +228,6 @@ const workExperiences = {
       descBullets: [
         "Designed responsive and dynamic user interfaces using React, Tailwind CSS, and JavaScript.",
         "Developed scalable backend APIs with Node.js, Express, and managed data using MongoDB and SQL databases."
-      ]
-    },
-    
-    {
-      role: "Freelance Developer ",
-      company: "Fiverr",
-      companylogo: require("./assets/images/fiverLogo2.png"),
-      date: "March 2023 – Present",
-      desc: "Build freelance profiles offering web development & writing services.",
-      descBullets: [
-        "Completed a couple of freelance projects with positive reviews & client feedback.",
-        "Offering full-stack web development services on Fiverr and exploring project opportunities."
       ]
     }
   ]
